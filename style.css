@@ -18,6 +18,15 @@ body {
 #display-container {
     height: 60px;
     width: 400px;
+    padding: 0;
+    margin: 0;
+}
+
+#operators-container {
+    display: flex;
+    height: 50px;
+    padding: 0;
+    margin: 0;
 }
 
 #display {
@@ -71,4 +80,8 @@ body {
 #clear {
     height: 100px;
     width: 100px;
+}
+
+.operators {
+    background-color: burlywood;
 }
